@@ -5,7 +5,7 @@ There should be a smooth transition between the symbolic problem and the numeric
 
 # Example
 
-```
+```python
 import sys
 import numpy as np
 from scipy.integrate import solve_ivp
@@ -46,27 +46,6 @@ def double_pendulum_positions(state, **kwargs):
     x1, y1 = l1 * np.sin(theta1), -l1 * np.cos(theta1)
     x2, y2 = x1 + l2 * np.sin(theta2), y1 - l2 * np.cos(theta2)
     return [x1, y1, x2, y2]
-
-
-
-# def update_plot(state, positions, animation_items, plot_items, t_data, plot_data, **kwargs):
-#     """
-#     Update the animation and plots with the current state.
-#     """
-#     x1, y1, x2, y2 = positions
-
-#     # Update animation
-#     animation_items["ball1"].setData([x1], [y1])
-#     animation_items["ball2"].setData([x2], [y2])
-#     animation_items["line1"].setData([0, x1], [0, y1])
-#     animation_items["line2"].setData([x1, x2], [y1, y2])
-
-#     # Update time-series plot
-#     t_data.append(len(t_data) * kwargs.get("dt", 0.02))
-#     plot_data["θ1(t)"].append(state[0])
-#     plot_data["θ2(t)"].append(state[2])
-#     plot_items["θ1(t)"].setData(t_data, plot_data["θ1(t)"])
-#     plot_items["θ2(t)"].setData(t_data, plot_data["θ2(t)"])
 
 
 def create_double_pendulum_simulation():
