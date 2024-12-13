@@ -116,5 +116,6 @@ if __name__ == "__main__":
 
 ```
 
-
-![foobar](https://s3.us-west-2.amazonaws.com/python-physics.danielrmeyer/assets/double_pendulum.mp4)
+<video src="https://s3.us-west-2.amazonaws.com/python-physics.danielrmeyer/assets/double_pendulum.mp4" controls width="640">
+  Your browser does not support the video tag.
+</video>
