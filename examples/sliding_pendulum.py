@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 from scipy.integrate import solve_ivp
-from generalized_simulation_framework import create_simulation_framework
+from python_physics.vizualization.simulation_framework import create_simulation_framework
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QFormLayout, QLineEdit, QPushButton, QLabel, QWidget
 from PyQt5.QtCore import QTimer

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-physics"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Meyer <daniel@offgridcompute.com>"]
+readme = "README.md"
+packages = [{ include = "python_physics"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+pyqt5 = "^5.15.11"
+sympy = "^1.13.3"
+scipy = "^1.14.1"
+matplotlib = "^3.9.4"
+pyqtgraph = "^0.13.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
