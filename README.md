@@ -115,5 +115,5 @@ if __name__ == "__main__":
 
 
 ```
-![](https://your-image-url.gif](https://s3.us-west-2.amazonaws.com/python-physics.danielrmeyer/assets/double_pendulum.gif)
 
+![](https://s3.us-west-2.amazonaws.com/python-physics.danielrmeyer/assets/double_pendulum.gif)
